@@ -4,9 +4,9 @@ fn main() {
     let mut args: Args = args();
     // let first: String = args.nth(1).unwrap();
     let first_number = args.nth(1).unwrap().parse::<f32>().unwrap();
-    let operator: char = args.nth(0).unwrap().chars().next().unwrap();
+    let operator: char = args.next().unwrap().chars().next().unwrap();
     // let second: String = args.nth(0).unwrap();
-    let second_number = args.nth(0).unwrap().parse::<f32>().unwrap();
+    let second_number = args.next().unwrap().parse::<f32>().unwrap();
 
     // let first_number = first.parse::<f32>().unwrap();
     // let second_number = second.parse::<f32>().unwrap();
