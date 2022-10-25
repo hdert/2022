@@ -8,5 +8,4 @@ edition = "2021"
 [dependencies]
 yew = "0.19"
 rand = "0.8"
-imp = "0.1"
 getrandom = { version = "0.2", features = ["js"] }
